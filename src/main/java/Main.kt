@@ -42,7 +42,7 @@ object Main {
 
     //todo: combine temperature & carbon  & traffic into a CombinedMeasurement
     //todo: each stream emits at the same pace, and each accurate emission can be considered chronologically in sync with other accurate emissions.
-    private fun combineMeasurements(celsiusTemperatureInCelsius: Observable<FahrenheitTemperature>, carbon: Observable<Carbon>, traffic: Observable<Traffic>): Observable<CombinedMeasurement> {
+    private fun combineMeasurements(temperatureFahrenheit: Observable<FahrenheitTemperature>, carbon: Observable<Carbon>, traffic: Observable<Traffic>): Observable<CombinedMeasurement> {
         TODO()
     }
 
